@@ -45,3 +45,7 @@ To test this project, you can run npm test in your terminal.
 If you have any questions about this project, please feel free to contact me at
 <EMAIL>. You may also view more of my work on GitHub at https://github.com/jessicamcgill/
 resume-website/.
+
+#images: from free resource .
+
+https://unsplash.com/
