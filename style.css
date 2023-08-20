@@ -152,7 +152,7 @@ div .dot {
     padding: 0px;
     margin: 0px 5px 0px 0px;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 20px;
     /* text-align: center; */
 }
 
@@ -184,7 +184,7 @@ div .dot {
 /* name and social icons  */
 
 #name-container {
-    margin-top: 20rem;
+    margin-top: 10rem;
 }
 
 #my-name {
@@ -201,15 +201,14 @@ div .dot {
 
 .horizontal-logo {
     list-style: none;
-    margin-top: 30px;
     align-items: center;
 }
 
 .horizontal-logo li a img {
-    width: 40px;
-    height: 40px;
-    margin: 5px 10px;
-    padding: 10px;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    padding: 5px;
     border: 2px solid #ffffff;
     background-color: #a8dbfddf;
     border-radius: 50%;
@@ -219,11 +218,54 @@ div .dot {
 
 .horizontal-logo li a img:hover {
 
-    margin: 5px 10px;
-    padding: 10px;
+    margin: 10px;
+    padding: 5px;
     border: 2px solid #000000;
-    box-shadow: #bbbaba 0 px 0px 15px;
-    background-color: rgba(95, 161, 232, 0.663);
+    box-shadow: #008fef 0px 0px 15px;
+    background-color: rgb(255, 255, 255);
     border-radius: 50%;
 
+}
+
+/* about me section */
+
+#about {
+    height: auto;
+    width: 100%;
+
+}
+
+#my-image {
+    height: 15rem;
+    width: 15rem;
+    margin: auto;
+    margin-top: -8rem;
+    border-radius: 50%;
+    box-shadow: #ffffffb6 0px 0px 15px;
+    position: relative;
+
+}
+
+#my-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+
+}
+
+#my-image:hover {
+    height: 15rem;
+    width: 15rem;
+    margin: auto;
+    margin-top: -8rem;
+    border-radius: 50%;
+    box-shadow: #ffffff 0px 0px 15px;
+
+}
+
+#about p {
+    font-size: large;
+    color: #a8dbfddf;
+    margin: 50px 200px 0px 200px;
+    font-style: oblique;
 }
