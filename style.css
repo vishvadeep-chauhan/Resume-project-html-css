@@ -237,7 +237,7 @@ section:nth-child(2n) {
     background-color: gray;
 }
 
-section:nth-child(2n+1) {
+section:nth-child(2n + 1) {
     background-color: #a8dbfddf;
 }
 
