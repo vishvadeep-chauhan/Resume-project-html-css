@@ -1,5 +1,5 @@
 body {
-  background-color: #000000;
+  /* background-color: #00000000; */
   margin: 0px;
   padding: 0px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -301,7 +301,7 @@ section:nth-child(2n + 1) {
 
   width: 8rem;
   height: 1.8rem;
-  background-color: #0099ff6d;
+  background-color: #ffffff;
   border-radius: 20px;
   border: #0099ff6d 2px solid;
   box-shadow: 1px 0px 10px #000000;
@@ -352,3 +352,25 @@ section:nth-child(2n + 1) {
   height: inherit;
 }
 
+
+/* timeline */
+
+.timeline  {
+  width: 75%;
+  position: relative;
+  border: 2px solid #000000;
+
+}
+
+.timeline-box{
+  position: relative;
+  margin: 5px;
+  width: 40%;
+  left: 5%;
+  min-height: 150px;
+  border: 2px solid #000000;
+}
+
+.timeline-box:nth-child(2n) {
+  left: 55%;
+}
