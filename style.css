@@ -1,5 +1,4 @@
 body {
-  /* background-color: #00000000; */
   margin: 0px;
   padding: 0px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -218,6 +217,7 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }
 
 section:nth-child(2n) {
@@ -301,7 +301,7 @@ section:nth-child(2n + 1) {
 
   width: 8rem;
   height: 1.8rem;
-  background-color: #ffffff;
+  background-color: #ffffffdd;
   border-radius: 20px;
   border: #0099ff6d 2px solid;
   box-shadow: 1px 0px 10px #000000;
@@ -311,7 +311,7 @@ section:nth-child(2n + 1) {
 
 .skill-name span{
   font-size: 1rem;
-  color: #ffffffdf;
+  color: #ffffff;
   margin-left: .5rem;
 
 }
